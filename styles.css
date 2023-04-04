@@ -1,0 +1,58 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#container {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+#submenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 92px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.listColors {
+    display:flex;
+    justify-content: space-around;
+}
+
+#drawBox {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+.row {
+    width: 320px;
+    height: 20px;
+}
+
