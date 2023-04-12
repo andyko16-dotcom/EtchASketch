@@ -2,6 +2,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+    background-color:cornsilk
 }
 
 h1 {
@@ -14,45 +15,136 @@ h1 {
     display: flex;
     justify-content: flex-start;
 
+    
+
 }
 
 #submenu {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    justify-content: center;
+    width: 500px;
+    border: 2px;
+    border-radius: 4px;
+    border-style: solid;
     margin-left: 150px;
-    margin-right: 92px;
-    width: 100%;
-    height: 100%;
+    margin-right:100px;
+    
+
 }
 
-
+h3 {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
 
 .listColors {
     display:flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 150px;
+    
+}
+
+
+.row1,
+.row2 {
+    display: flex;
+    justify-content: flex-start;
+    height: 60px;
+    width: 300px;
+    margin:0;
+    padding:0;
+}
+
+
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+
+
+.eraser,
+.shader {
+    font-size: medium;
+    font-weight: bolder;
+    width: 60px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.buttonMenu {
+    display: flex;
+}
+
+
+
+.input-colorPicker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    top:10px;
+    margin-left:10px;
+    
+  }
+  
+  .colorPicker {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: none;
+    left: -13px;
+
+    
+  }
+
+
+
+
+button,
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 100%;
 }
 
 #drawBox {
-    width: 320px;
-    height: 320px;
     display: flex;
     border: 5px;
     border-color: black;
     border-style: solid;
     border-radius: 4px;
+    -webkit-user-drag: none;
 }
 
 .cell {
     width: 20px;
     height: 20px;
     background-color: white;
+    border: 1px;
+    border-style: solid;
+    border-color: grey;
+    -webkit-user-drag: none;
 }
 
 .row {
     width: 320px;
     height: 20px;
+    -webkit-user-drag: none;
 }
 
