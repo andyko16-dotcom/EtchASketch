@@ -22,3 +22,4 @@
 - added random color setting
 - finished making colors work after grid size change
 - fix addeventlistener 'hover' so it works with any selected color, shader, eraser, and random
+- probably gonna make a upgraded version of this once i learn more html css js hopefully implement from other js and css frameworks
